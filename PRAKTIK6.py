@@ -62,3 +62,11 @@ tombol = ttk.Button(
     command=hasil_prediksi
 )
 tombol.pack(pady=20)
+
+hasil = ttk.Label(
+    main_frame,
+    text="Hasil Prediksi Prodi: -",
+    font=("Arial", 12, "bold"),
+    foreground="blue"
+)
+hasil.pack(pady=10)
