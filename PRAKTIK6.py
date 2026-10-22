@@ -34,3 +34,5 @@ mata_pelajaran = [
     "Seni Budaya",
     "PJOK"
 ]
+
+input_nilai = {}
