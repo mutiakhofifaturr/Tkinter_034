@@ -39,3 +39,12 @@ input_nilai = {}
 
 form_frame = ttk.Frame(main_frame)
 form_frame.pack()
+
+for i, mapel in enumerate(mata_pelajaran):
+    label = ttk.Label(form_frame, text=mapel, width=22)
+    label.grid(row=i, column=0, padx=10, pady=5, sticky="w")
+
+    entry = ttk.Entry(form_frame, width=25)
+    entry.grid(row=i, column=1, padx=10, pady=5)
+
+    input_nilai[mapel] = entry
