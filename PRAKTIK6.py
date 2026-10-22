@@ -8,3 +8,10 @@ root.resizable(False, False)
 
 main_frame = ttk.Frame(root, padding=25)
 main_frame.pack(fill="both", expand=True)
+
+judul = ttk.Label(
+    main_frame,
+    text="APLIKASI PREDIKSI PRODI PILIHAN",
+    font=("Arial", 16, "bold")
+)
+judul.pack(pady=(0, 10))
