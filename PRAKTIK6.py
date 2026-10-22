@@ -48,3 +48,9 @@ for i, mapel in enumerate(mata_pelajaran):
     entry.grid(row=i, column=1, padx=10, pady=5)
 
     input_nilai[mapel] = entry
+
+
+def hasil_prediksi():
+    hasil.config(
+        text="Hasil Prediksi Prodi: Teknologi Informasi"
+    )
