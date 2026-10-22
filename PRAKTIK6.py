@@ -36,3 +36,6 @@ mata_pelajaran = [
 ]
 
 input_nilai = {}
+
+form_frame = ttk.Frame(main_frame)
+form_frame.pack()
