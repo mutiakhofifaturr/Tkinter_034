@@ -54,3 +54,11 @@ def hasil_prediksi():
     hasil.config(
         text="Hasil Prediksi Prodi: Teknologi Informasi"
     )
+
+
+tombol = ttk.Button(
+    main_frame,
+    text="Hasil Prediksi",
+    command=hasil_prediksi
+)
+tombol.pack(pady=20)
