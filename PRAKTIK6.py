@@ -70,3 +70,5 @@ hasil = ttk.Label(
     foreground="blue"
 )
 hasil.pack(pady=10)
+
+root.mainloop()
