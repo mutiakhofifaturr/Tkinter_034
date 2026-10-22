@@ -21,3 +21,16 @@ petunjuk = ttk.Label(
     text="Masukkan nilai 10 mata pelajaran (0-100)"
 )
 petunjuk.pack(pady=(0, 15))
+
+mata_pelajaran = [
+    "Matematika",
+    "Bahasa Indonesia",
+    "Bahasa Inggris",
+    "Informatika",
+    "IPA",
+    "IPS",
+    "PPKn",
+    "Pendidikan Agama",
+    "Seni Budaya",
+    "PJOK"
+]
