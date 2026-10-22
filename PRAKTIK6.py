@@ -15,3 +15,9 @@ judul = ttk.Label(
     font=("Arial", 16, "bold")
 )
 judul.pack(pady=(0, 10))
+
+petunjuk = ttk.Label(
+    main_frame,
+    text="Masukkan nilai 10 mata pelajaran (0-100)"
+)
+petunjuk.pack(pady=(0, 15))
